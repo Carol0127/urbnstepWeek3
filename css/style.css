@@ -1,0 +1,65 @@
+body {
+  font-family: "Montserrat", "Noto Sans TC", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*文字樣式*/
+
+.text-secondary {
+  color: var(--Neutral-600);
+}
+.text-muted {
+  color: var(--Neutral-500);
+}
+.text-highlight {
+  color: var(--Primary-400);
+}
+
+/*標題樣式*/
+.Display1 {
+  font-size: 64px;
+  line-height: 1.2;
+}
+.Display2 {
+  font-size: 48px;
+  line-height: 1.2;
+}
+h1 {
+  font-size: 40px;
+  line-height: 1.2;
+}
+h2 {
+  font-size: 32px;
+  line-height: 1.2;
+}
+h3 {
+  font-size: 28px;
+  line-height: 1.2;
+}
+h4 {
+  font-size: 24px;
+  line-height: 1.2;
+}
+h5 {
+  font-size: 20px;
+  line-height: 1.2;
+}
+h6 {
+  font-size: 16px;
+  line-height: 1.2;
+}
+p {
+  color: var(--Neutral-900);
+}
