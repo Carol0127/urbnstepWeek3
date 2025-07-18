@@ -128,7 +128,17 @@ table {
   border-spacing: 0;
 }
 
+html {
+  box-sizing: border-box;
+}
+*,
 *::before,
 *::after {
-  box-sizing: border-box;
+  box-sizing: inherit; /* 這會讓所有元素繼承 html 的 box-sizing */
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: var(--Neutral-900);
 }
